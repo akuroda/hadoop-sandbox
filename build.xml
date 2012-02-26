@@ -6,7 +6,7 @@
     <property name="debuglevel" value="source,lines,vars"/>
     <path id="MapreduceMonteCarloPI.classpath">
         <pathelement location="bin"/>
-        <pathelement location="../../java/hadoop-0.20.2-cdh3u3/hadoop-core-0.20.2-cdh3u3.jar"/>
+        <pathelement path="${hadoop.jarpath}"/>
     </path>
     <target name="init">
         <mkdir dir="bin"/>
