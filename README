@@ -2,7 +2,7 @@ mr-pi-simulator / Monte Carlo simulater for PI on MapReduce
 
 1. Summary
 This application runs Monte Carlo simulation for PI on MapReduce.
-The target Hadoop version is 0.21.0.
+The target Hadoop version is 0.23.0.
 
 2. License
 Copyright (c) 2012 Akira Kuroda <akuroda@gmail.com>

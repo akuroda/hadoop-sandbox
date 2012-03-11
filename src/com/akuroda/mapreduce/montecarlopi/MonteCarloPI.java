@@ -1,7 +1,6 @@
 package com.akuroda.mapreduce.montecarlopi;
 
 import java.io.IOException;
-import java.util.logging.Level;
 import java.util.logging.Logger;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.LongWritable;
@@ -89,7 +88,7 @@ public class MonteCarloPI {
 			System.exit(-1);
 		}
 
-		Job job = new Job();
+		Job job = Job.getInstance();
 		job.setJarByClass(MonteCarloPI.class);
 
 		FileInputFormat.addInputPath(job, new Path(args[0]));
