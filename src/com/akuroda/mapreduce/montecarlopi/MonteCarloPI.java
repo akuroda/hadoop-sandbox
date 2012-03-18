@@ -88,6 +88,8 @@ public class MonteCarloPI {
 			System.exit(-1);
 		}
 
+		// deprecated as of 0.21
+		// Job job = new Job();
 		Job job = Job.getInstance();
 		job.setJarByClass(MonteCarloPI.class);
 
